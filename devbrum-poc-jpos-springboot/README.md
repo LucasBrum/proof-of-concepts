@@ -1,0 +1,6 @@
+- A POC using JPOS framework and Springboot.
+  - To start this project and test, you need to run the class DevBrumPocJposApplication using Springboot resource.
+  - In your terminal, Up the server to receive the request ISO Message
+    - run in terminal: telnet localhost 10000
+  - Using the collection below to test:
+  -   <upload-collection>
