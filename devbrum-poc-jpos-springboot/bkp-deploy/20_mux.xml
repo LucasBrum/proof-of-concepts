@@ -1,0 +1,6 @@
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="s-mux">
+    <in>receive</in>
+    <out>send</out>
+    <request-listener class="br.dev.brum.poc.jpos.listener.RequestListener" logger="Q2" realm="handle-0800">
+    </request-listener>
+</mux>
